@@ -39,7 +39,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack App',
+      title:
+        'Tracaloriew An app for tracking daily caloric intake, meals, and workouts',
       filename: 'index.html',
       template: './src/index.html',
     }),
